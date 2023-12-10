@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="categories">
+            <item>Select Category</item>
+            <item>Snack</item>
+            <item>Comfort food</item>
+            <item>Salads</item>
+            <item>Appetizer recipes</item>
+            <item>Beverages</item>
+            <item>Desserts</item>
+        </string-array>
+
+</resources>

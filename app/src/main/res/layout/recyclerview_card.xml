@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="20dp"
+    android:elevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:padding="20dp"
+                android:src="@drawable/image_card" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dish Name"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:padding="5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/modifyButton"
+
+                    android:text="Modify"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:padding="0dp"
+                    android:backgroundTint="#F55951"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"/>
+                <Button
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/deleteButton"
+
+                    android:text="Delete"
+                    android:textSize="13dp"
+                    android:textStyle="bold"
+                    android:padding="0dp"
+                    android:backgroundTint="#F55951"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"/>
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
